@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Amarante&subset=latin-ext');
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background: url(" bVscQ3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    display: table;
+	font-family: "strumpf-std";
+}
+.nav{
+	position:fixed;
+     top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height:80px;
+}
+
+.left{
+	float:left;
+}
+
+.left ul{
+	list-style: none;
+   padding: 1em 3em;
+}
+.left ul li{
+	display:inline-block;
+}
+.left ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	padding: 8px 16px;
+	
+}
+.right{
+	float:right;
+}
+
+.right ul{
+	list-style: none;
+   padding: 1em 3em;
+}
+.right ul li{
+	display:inline-block;
+}
+.right ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	padding: 8px 16px;
+}
+
+.right li:nth-child(2) a {
+	border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.header{
+	 text-align: left;
+	position: sticky;
+	top: 30%;
+	left: 50%;
+	transform: translate(-30%, -7 0%);
+	}
+
+.header h1{
+	color:#fff;
+	font-family: 'Amarante', cursive;
+font-size: 45px;	
+}
+.header p{
+
+	position: relative;
+	color: lightpink;
+	font-size: 16px;
+	font-family: 'Righteous', cursive;
+}
+
+.form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	
+
+}
+
+input{
+	width: 100%;
+	margin: 20px 0;
+	background: #6C9198;
+	border: none;
+	border-bottom: 1px solid #E5B12C;
+}
+#msg{
+	margin-top:26px;
+	
+}
+
+::-webkit-input-placeholder{
+	color: #EAEAEA;
+	font-size: 13px;
+	letter-spacing: 2px;
+	}
+button{
+	padding: 20px 32px;
+	font-size: 16px;
+	background: #0078ff;
+	border: none;
+	border-radius: 4px;
+	margin: 30px;
+	
+}
